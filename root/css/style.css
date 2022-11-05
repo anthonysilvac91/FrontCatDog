@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+/* Estilos generales */
+body{
+    padding: 10px 100px 10px 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #3C2313;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+}
+
+/* Estilos del Header */
+.header{
+    
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.label label{
+    margin: 5px 5px 5px 50px;
+    
+}
+
+.label ul{
+    display: flex;
+}
+
+.label ul li{
+    margin: 5px 40px 0px 0px;
+}
+.logo{
+    margin:25px ;
+}
+
+.navBar ul{
+    display: flex;
+    padding:18px;   
+ }
+
+.navBar ul li{
+    margin: 10px;
+    
+ }
+
+.navBar ul li a{
+    color: #fff;
+    font-size: 13px;
+ }
+
+ /* Estilos del banner */
+
+ .banner img{
+    width: 100%;
+    height: auto;
+ }
+
+ .mensajeBanner{
+   position: relative;
+   left: 350px;
+   top: -280px;
+   text-align: center;
+   
+    
+ }
+
+ .mensajeBanner h2{
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #fff;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    left: 380px;
+    padding: 5px;
+    margin: 10px;
+    
+ }
+
+ .mensajeBanner p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px;
+ }
+
+ .mensajeBanner button{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #F0A83E;
+    padding: 15px 20px 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    
+ }
+
+
+
+ /* Estilos Titulo */
+
+ .titulo{
+        text-align: center;
+        margin-top: -130px;
+ }
+
+ .titulo h1{
+    
+    font-size: 40px;
+
+ }
+
+ .titulo ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+ }
+
+ .titulo ul li{
+    margin: 5px;
+ }
+
+ .titulo ul li a{
+    color: #666666;
+    font-size: 15px;
+    
+ }
+
+/* Estilos de Tarjetas */
+
+.contenedorTarjetas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.tituloTarjeta{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.precioTarjeta{
+    color: #F0A83E;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
